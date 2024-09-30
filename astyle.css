@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.leadership-team{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+ }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf5e6;
+    padding: 20px;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    color: #d2691e;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    text-align: left;
+}
+
+.about-content div {
+    margin-bottom: 40px;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    color: #8b4513;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 5px;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-container p {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content div {
+        margin-bottom: 30px;
+    }
+
+    .about-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAV PUBLIC SCHOOL</title>
+    <style>
+        /* General CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #f50707;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global Color Variables */
+        :root {
+            --primary-color: #055eb7;
+            --secondary-color: #0044cc;
+            --background-light: #f4f4f9;
+            --background-white: #ffffff;
+            --text-color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background: var(--primary-color);
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        header .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .school-logo {
+            width: 80px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        /* Intro Section Styles */
+        .intro {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: var(--background-white);
+            margin: 20px auto;
+            max-width: 1200px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro p {
+            font-size: 20px;
+            color: var(--text-color);
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Announcements Section Styles */
+        .announcements {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            background-color: var(--background-light);
+            border-radius: 10px;
+        }
+
+        .announcements h2 {
+            font-size: 30px;
+            color: var(--secondary-color);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .announcement-item {
+            background-color: var(--background-white);
+            margin-bottom: 20px;
+            padding: 20px;
+            border-left: 5px solid var(--primary-color);
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .announcement-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .announcement-item strong {
+            color: var(--primary-color);
+            font-size: 18px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+
+            .intro p {
+                font-size: 20px;
+            }
+
+            .announcements h2 {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <img src="imag3.jpeg" alt="School Logo" class="school-logo">
+            <h1>D.A.V PUBLIC SCHOOL</h1>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            
+        </nav>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="intro">
+        <p>Welcome to D.A.V Public School, where we nurture academic excellence, encourage creativity, and foster personal growth. Our teachers are committed to providing a supportive environment for every student to achieve their best.</p>
+    </section>
+
+    <!-- Announcements Section -->
+    <section class="announcements">
+        <h2>Latest Announcements</h2>
+        <div class="announcement-item">
+            <strong>School Reopening Update:</strong> We are excited to announce that in-person classes will resume on October 5th. Safety protocols are in place to ensure the health of all students and staff.
+        </div>
+        <div class="announcement-item">
+            <strong>Parent-Teacher Conferences:</strong> Virtual conferences will take place on November 12th and 13th. Parents can register for time slots through the parent portal.
+        </div>
+        <div class="announcement-item">
+            <strong>New Sports Programs:</strong> We are introducing new sports programs including soccer, tennis, and swimming. Registrations are open now!
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        © 2024 D.A.V PUBLIC SCHOOL - All Rights Reserved.
+    </footer>
+
+</body>
+</html>

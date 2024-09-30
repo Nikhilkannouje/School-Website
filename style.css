@@ -1,0 +1,252 @@
+/* Basic Styles */
+body{
+   height: 100vh;
+   width: 100%;
+   background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+   background-size: 300% 300%;
+   animation: color 12s ease-in-out infinite;
+}
+@keyframes color {
+   0%{
+       background-position: 0 50%;
+   }
+   50%{
+       background-position: 100% 50%;
+   }
+   100%{
+       background-position: 0 50%;
+   }
+}
+body {
+   
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+nav {
+   background-color: #863275;
+   padding: 10px 0;
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   padding: 0;
+}
+
+nav ul li {
+   margin: 0 15px;
+}
+
+nav ul li a {
+   color: rgb(14, 219, 242);
+   text-decoration: none;
+}
+
+section {
+   padding: 40px;
+   text-align: center;
+}
+
+h2 {
+   font-size: 28px;
+}
+
+.announcement-cards {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+.card {
+   border: 1px solid #ccc;
+   padding: 15px;
+   width: 200px;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+table, th, td {
+   border: 1px solid black;
+   padding: 8px;
+   text-align: center;
+}
+
+.gallery-images img {
+   margin: 10px;
+}
+
+.contact-details {
+   margin: 20px 0;
+}
+
+.map {
+   margin-top: 20px;
+}
+
+.popup {
+   display: none;
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   background: #fff;
+   padding: 20px;
+   border: 1px solid #ccc;
+}
+
+.popup-content {
+   text-align: center;
+}
+
+.popup-content h2 {
+   margin-bottom: 20px;
+}
+
+.close {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   cursor: pointer;
+}
+/* Login Page Styles */
+.login-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #f4f4f4;
+}
+
+.login-container {
+   background-color: white;
+   padding: 40px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 300px;
+   text-align: center;
+}
+
+.login-container h2 {
+   margin-bottom: 20px;
+}
+
+.login-form label {
+   display: block;
+   text-align: left;
+   margin-bottom: 8px;
+   font-size: 14px;
+   color: #333;
+}
+
+.login-form input {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+.login-form button {
+   width: 100%;
+   padding: 10px;
+   background-color: #333;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.login-form button:hover {
+   background-color: #555;
+}
+
+.login-links {
+   margin-top: 20px;
+   font-size: 14px;
+}
+
+.login-links a {
+   color: #333;
+   text-decoration: none;
+}
+
+.login-links a:hover {
+   text-decoration: underline;
+}
+/* Background Animation for Login Page */
+@keyframes gradientBackground {
+   0% {
+       background-position: 0% 50%;
+   }
+   50% {
+       background-position: 100% 50%;
+   }
+   100% {
+       background-position: 0% 50%;
+   }
+}
+
+.login-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: linear-gradient(270deg, #ff7e5f, #feb47b, #6a11cb, #2575fc);
+   background-size: 600% 600%;
+   animation: gradientBackground 15s ease infinite;
+}
+
+.login-container {
+   background-color: rgba(255, 255, 255, 0.85); /* Slight transparency for a cool effect */
+   padding: 40px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 300px;
+   text-align: center;
+}
+
+.login-form button {
+   background-color: #2575fc; /* Consistent color with gradient */
+}
+.footer{
+   margin-top: 15px;
+}
+.foot-panel{
+   background-color: #37475A;
+   color: white;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 0.85rem;
+}
+
+.foot-panel2{
+   display: flex;
+   background-color: black;
+   color: white;
+   height: 300px;
+   justify-content: center;
+   justify-content: space-evenly;
+
+}
+.ul{
+   margin-top: 10px;
+}
+
+.ul a{
+   display: block;
+   font-size: 0.85rem;
+}
+.footerrk{
+   width: 100%;
+   padding: 70px 30px 20px;
+}
+section id
